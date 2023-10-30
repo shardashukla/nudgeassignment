@@ -1,0 +1,67 @@
+.landing-page{
+    padding-top: 29px;
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+}
+.landing-container {
+    margin-top: 5px;
+    height: calc(100vh - 68px);
+    position: relative;
+}
+.home-block{
+    position: absolute;
+    top: 280px;
+    right: 0;
+    text-align: center;
+    strong{
+        font-size: 12px;
+        font-weight: 800;
+        padding-left: 25px;
+    }
+    &::after{
+        background: url(../assets/images/connecting-lines.svg) left top no-repeat;
+        position: absolute;
+        left: -77px;
+        top: -220px;
+        content: "";
+        width: 165px;
+        height: 255px;
+        z-index: -1;
+    }
+    &::before{
+        background: url(../assets/images/connecting-lines2.svg) left top no-repeat;
+        position: absolute;
+        left: -188px;
+        bottom: -61px;
+        content: "";
+        width: 205px;
+        height: 95px;
+        z-index: -1;
+    }
+}
+.mid-line{
+    &::before{
+        background: url(../assets/images/connecting-lines3.svg) left top no-repeat;
+        position: absolute;
+        left: -177px;
+        bottom: 50px;
+        content: "";
+        width: 227px;
+        height: 156px;
+        z-index: -1;
+        background-size: 227px 195px;
+    }
+}
+.social-district{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+.market-area{
+    margin-bottom: 68px;
+}
+.office-block {
+    margin-left: 28px;
+}
+

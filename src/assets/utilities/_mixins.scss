@@ -1,0 +1,54 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin transition-effect {
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+@mixin transform-effect{
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+@mixin flex{
+    display: flex;
+	flex-wrap: wrap;
+}
+@mixin flex-space-between{
+    justify-content: space-between;
+}
+@mixin flex-end{
+    justify-content: flex-end; 
+}
+@mixin btn{
+     background: $yellow;
+     font-size: 12px;
+     color: $black;
+     font-weight: 800;
+     border: none;
+     @include border-radius(11px); 
+     padding: 8px 10px;
+     min-width: 115px;
+     text-align: center; 
+     box-shadow: 0px 4px 0px 0px #725C0D;
+     margin-bottom: 9px;
+}
+@mixin sm-btn{
+    background: #BD9711;
+    font-size: 16px;
+    color: #1E1B15;
+    font-weight: 700;
+    padding: 4px 10px;
+    border: none;
+    @include border-radius(11px);
+    min-width: 241px;
+    border-bottom: 5px solid #704b00;
+ }
+
+

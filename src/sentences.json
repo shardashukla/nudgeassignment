@@ -1,0 +1,25 @@
+[
+    
+    { 
+      "id": "1", 
+      "first": "He",
+      "last": "his food",
+      "answer": "eat",
+      "explanation": "s / es"
+    },
+    { 
+      "id": "2", 
+      "first": "it",
+      "last": "is pen",
+      "answer": "pen",
+      "explanation": "s"
+    },
+    { 
+      "id": "3", 
+      "first": "Five",
+      "last": "Fruits",
+      "answer": "mango"
+    }
+    
+]
+  
